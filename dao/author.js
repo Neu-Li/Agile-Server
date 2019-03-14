@@ -4,7 +4,7 @@ let env = require("../config/env");
 // test 1
 let model = require("../models/" + path.basename(__filename, ".js"));
 
-let dao = {
+let daoq = {
   add: async function(addJson) {
     let data = await model.create(addJson, {
       logging: env.logging
