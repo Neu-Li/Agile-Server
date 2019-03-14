@@ -2,6 +2,7 @@ let Sequelize = require("sequelize");
 let path = require("path");
 let env = require("../config/env");
 // test 1
+// test 2
 let model = require("../models/" + path.basename(__filename, ".js"));
 
 let daoq = {
